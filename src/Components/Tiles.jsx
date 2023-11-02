@@ -12,18 +12,29 @@ export default function Tiles({ data }) {
         backgroundColor: "white",
         // border: "1px solid grey",
         width: "15vw",
+        boxShadow: "5px 5px 5px #aaaaaa",
       }}
     >
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <div style={{ color: "#808080" }}>{data.id}</div>
-        <div
+        <img
+          src="alien.jpeg"
+          alt="green robot"
+          style={{
+            borderRadius: "50%",
+            height: "20px",
+            width: "20px",
+            border: "1px solid grey",
+          }}
+        />
+        {/* <div
           style={{
             border: "1px solid grey",
             borderRadius: "50%",
             height: "20px",
             width: "20px",
           }}
-        ></div>
+        ></div> */}
       </div>
 
       <div style={{ display: "flex", textAlign: "center", color: "#292A34" }}>
