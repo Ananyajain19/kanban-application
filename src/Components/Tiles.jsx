@@ -3,6 +3,7 @@ import React from "react";
 export default function Tiles({ data }) {
   return (
     <div
+      className="tiles"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -11,7 +12,7 @@ export default function Tiles({ data }) {
         borderRadius: "8px",
         backgroundColor: "white",
         // border: "1px solid grey",
-        width: "15vw",
+
         boxShadow: "5px 5px 5px #aaaaaa",
       }}
     >

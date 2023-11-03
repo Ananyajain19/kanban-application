@@ -36,12 +36,12 @@ export default function Content() {
     <div>
       <Navbar clicked={clicked} setClicked={setClicked} />
       <div
+        className="content-div"
         style={{
-          display: "flex",
           justifyContent: "space-around",
           backgroundColor: "#f4f6f5",
           height: "100vh",
-          width: "100vw",
+          width: "100%",
           marginTop: "5px",
         }}
       >

@@ -42,7 +42,7 @@
   height: 30px;
   align-items: flex-start;
   box-shadow: 5px 5px 8px #d6d3d3;
-  width: "100%";
+  width: 100%;
   
 }
 .dropdown{
@@ -59,4 +59,38 @@
   gap: 10px;
   top:10;
   bottom : -10;
+}
+.content-div{
+    display: flex;
+
+}
+.tiles{
+  width: 15vw;
+}
+@media only screen and (max-width: 480px) {
+  .content-div{
+    display: grid;
+    gap: 20px;
+    width: '100%';
+    height: '100vh';
+    justify-content: flex-start;
+
+}
+.tiles{
+  width: 100%;
+}
+}
+@media only screen
+and (min-device-width : 480px)
+and (max-device-width : 1150px)
+ {
+  .content-div{
+  
+   width: 100%;
+   height: 100vh;
+   flex-wrap: wrap;
+   justify-content:flex-start !important;
+
+}
+
 }
